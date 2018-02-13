@@ -1,0 +1,75 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+.drum-machine {
+  background: #464344;
+  color: #f2ede0;
+  box-shadow: 0 10px 70px #444444, inset 0 10px rgba(255, 255, 255, 0.1), inset 0 -10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 70px 60px 160px;
+  margin: auto;
+  width: 80%;
+}
+
+.instrument-button {
+  background: #eef76c;
+  font: arial;
+  font-weight: bold;
+  width: 70px;
+  margin: 10px 5px;
+}
+
+.instrument {
+  margin: auto;
+}
+
+.instrument-panel {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.led-unselected {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #F00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+}
+
+.led-selected {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #A00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+}
+
+.knob:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.step-selector {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.step {
+  background: #eef76c;
+  width: 5%;
+  height: 60px;
+  color: #d6d6d6;
+  margin: auto;
+}
+
+
